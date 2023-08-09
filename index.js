@@ -18,7 +18,7 @@ mongoose.connection.once('open',function(){
 
 //Server
 app.listen(8000,function(){
-  console.log('Server is Up')
+  console.log('Server is Up at: http://localhost:8000')
 })
 
 const router = require('./routes/emp')
